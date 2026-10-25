@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext",
+    "module": "esnext" ,
+    "lib": [
+      "esnext"
+    ],
+    "outDir": "./dist/",
+    "rootDir": "./src/",
+    "strict": true ,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "noCheck": true
+  },
+  "exclude": ["node_modules"]
+}

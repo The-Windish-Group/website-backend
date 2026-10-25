@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "0.0.1",
+  "description": "windish website backend",
+  "license": "MIT",
+  "author": "acoolg",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test_up": "nodemon dist/index.js",
+    "compile": "tsc" 
+  },
+  "dependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
